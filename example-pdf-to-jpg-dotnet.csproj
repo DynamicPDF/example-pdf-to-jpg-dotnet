@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>example_pdf_to_jpg_dotnet</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ceTe.DynamicPDF.Rasterizer.NET" Version="3.4.0.39186" />
+  </ItemGroup>
+
+</Project>
