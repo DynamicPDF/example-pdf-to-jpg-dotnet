@@ -12,8 +12,10 @@ namespace example_pdf_to_jpg_dotnet
         // Use the ceTe.DynamicPDF.Rasterizer namespace for the PdfRasterizer class.
         static void Main(string[] args)
         {
+            // Create a PdfRasterizer object using the source PDF to be converted to JPG image
             PdfRasterizer rasterizer = new PdfRasterizer(GetResourcePath("doc-a.pdf"));
 
+            // Call the Draw method with output image name, image format and the DPI
             rasterizer.Draw("output.jpg", ImageFormat.Jpeg, ImageSize.Dpi72);
         }
 
